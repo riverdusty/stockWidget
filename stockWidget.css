@@ -1,0 +1,22 @@
+#stocks marquee div {
+    display:inline;
+    }
+
+#stocks marquee {
+	width: 100%;
+	}
+
+#stocks {
+	width: 80%;
+	}
+	
+.green {
+    color: green;
+    }
+.red {
+	color: red;
+	}
+
+.AverageDailyVolume, .AskRealtime, .BidRealtime, .ErrorIndicationreturnedforsymbolchangedinvalid {
+	display:none !important;
+	}
