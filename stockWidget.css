@@ -1,6 +1,6 @@
 #stocks marquee div {
-    display:inline;
-    }
+	display:inline;
+	}
 
 #stocks marquee {
 	width: 100%;
@@ -10,10 +10,11 @@
 	width: 80%;
 	}
 	
-.green {
-    color: green;
-    }
-.red {
+.green 	{
+	color: green;
+	}
+	
+.red 	{
 	color: red;
 	}
 
