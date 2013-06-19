@@ -11,7 +11,10 @@ $.ajax({
     $.each(arr, function(num, elem){
     	var txtdiv = document.createElement('div')
     	txtdiv.className = elem.tagName;
-    	txtdiv.appendChild(document.createTextNode(' | ' + elem.tagName.replace(/([a-z])([A-Z])/g, '$1 $2') + ' : ' + elem.textContent))
+    	txtdiv.appendChild(document.createTextNode(' | ' 
+    		+ elem.tagName.replace(/([a-z])([A-Z])/g, '$1 $2') 
+    		+ ' : ' 
+    		+ elem.textContent))
     	if (elem.textContent !== undefined) {
     	if (elem.textContent.substr(0,1) == '+'){
         txtdiv.className = 'green'
