@@ -1,7 +1,7 @@
 stockWidget
 ===========
 
-Create a div with id "stocks" where you'd like this widget.
+Create a div with id "stockWidget" where you'd like this widget.
 If you haven't already, make sure you've got jQuery.
 then load the attached stockWidget.css and stockWidget.js into your page.
 there is an html file you can use as an example
