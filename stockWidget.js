@@ -27,5 +27,5 @@ $.ajax({
    }
 });
 window.onload = function () {
-document.getElementById('stocks').appendChild(marq).appendChild(marqdiv);
+document.getElementById('stockWidget').appendChild(marq).appendChild(marqdiv);
 var t = setTimeout(function(){ $('marquee').attr('behavior', 'scroll')},3000)}

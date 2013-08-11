@@ -1,12 +1,12 @@
-#stocks marquee div {
+#stockWidget marquee div {
 	display:inline;
 	}
 
-#stocks marquee {
+#stockWidget marquee {
 	width: 100%;
 	}
 
-#stocks {
+#stockWidget {
 	width: 80%;
 	}
 	
