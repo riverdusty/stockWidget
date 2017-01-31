@@ -1,19 +1,17 @@
 stockWidget
 ===========
 
+Ensure you've got jQuery loaded.
 Create a div with id "stockWidget" where you'd like this widget.
-If you haven't already, make sure you've got jQuery.
-then load the attached stockWidget.css and stockWidget.js into your page.
-there is an html file you can use as an example
-Thats it.
+Generally a good idea to load the script within a ready function.
+You can see this in the stocks.html example.
 
-In the stockWidget.js you'll see a sym = 'SYMBOL'.
-Use this to configure which stocks you'd like to get information about.
+The stockWidget function accepts to properties as an object.
 
-In the stockWidget.css you'll see some hidden elements.
-Thats your configuration, simply add to that css, the elements you want
-hidden.
+firstly symbol, which must corrilate to a stock symbol, include CASE.
 
-The class name is the same as the display name (without spaces).
-so you'd add a comma and .Ask to hide the "Ask" row.
-See the CSS file for examples.
+secondly behavior, which corrilates to the Marquee behavior and defaults to 'scroll'.
+
+thirdly are the tags you want to report on. This is an array of Case Sensitive strings for each tagName returned.
+tags can accept 'default' which will load a default set of useful tags.
+View the comment in the stockWidget.js to see all available tags.

@@ -17,22 +17,7 @@
 .red 	{
 	color: red;
 	}
-
-.AverageDailyVolume, .AskRealtime, .BidRealtime, 
-.ErrorIndicationreturnedforsymbolchangedinvalid, .AfterHoursChangeRealtime, .DividendShare, 
-.BookValue .Change, .Commission, .ChangeRealtime, 
-.LastTradeDate, TradeDate, .EarningsShare, .ErrorIndicationreturnedforsymbolchangedinvalid, 
-.EPSEstimateCurrentYear, .EPSEstimateNextYear, .EPSEstimateNextQuarter, .HoldingsGainPercent, 
-.AnnualizedGain, .HoldingsGain, .HoldingsGainPercentRealtime, .HoldingsGainRealtime, 
-.MoreInfo, .OrderBookRealtime, .MarketCapitalization, .MarketCapRealtime, .EBITDA, 
-.LastTradeRealtimeWithTime, .ChangePercentRealtime, .Notes, .PricePaid, .PriceSales, .PriceSales, 
-.ExDividendDate, .PERatio, .DividendPayDate, .PERatioRealtime, .PEGRatio, 
-.PriceEPSEstimateCurrentYear, .PriceEPSEstimateNextYear, .SharesOwned, .ShortRatio, 
-.LastTradeTime, .TickerTrend, .TickerTrend, .OneyrTargetPrice, .HoldingsValue, 
-.HoldingsValueRealtime, .DaysValueChange, .DaysValueChange, .DividendYield, .DividendYield, 
-.LastTradeWithTime, .LastTradePriceOnly, .HighLimit, .LowLimit, .DaysRangeRealtime, 
-.FiftydayMovingAverage, .TwoHundreddayMovingAverage, .ChangeFromTwoHundreddayMovingAverage, 
-.PercentChangeFromTwoHundreddayMovingAverage, .ChangeFromFiftydayMovingAverage, 
-.PercentChangeFromFiftydayMovingAverage {
-	display:none !important;
+	
+.orange {
+	color: orange;
 	}

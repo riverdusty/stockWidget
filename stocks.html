@@ -3,6 +3,16 @@
 <link type="text/css" href="stockWidget.css" rel="stylesheet"> 
 <script src="jquery.js"></script>
 <script src="stockWidget.js"></script>
+<script>
+	$(function(){
+		var settings = {
+			symbol : 'IRON.L',
+			behavior : 'scroll',
+			tags : 'default'
+		};
+		stockWidget(settings);
+	})
+</script>
 </head> 
 <body> 
 <div id='stockWidget'></div> 
